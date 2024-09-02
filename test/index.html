@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>To-Do List</title>
+</head>
+<body>
+
+  <div class="fixed w-80 flex flex-col items-center  p-6 ">
+    <button class="absolute top-3 left-2 border-2 border-gray-500
+     rounded-full items-center hover:border-blue-500 w-5 h-5 px-1">
+    </button>
+    <span class="ml-2 text-sm absolute inset-y-0 inset-x-8 flex items-center
+     pointer-events-none text-gray-300">Currently typing</span>
+    <input id="todo-input" type="text" class="border-gray-500 focus:outline-none hover-box px-40 py-2 flex-1 bg-custom-gray" 
+    placeholder="Add a new todo">
+    <div id="todo-container" class="input-container">
+        <!-- New todo items will be added here -->
+      </div>
+      <!DOCTYPE html>
+      <>
+      <head>
+        <title>To-Do List</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+          /* Custom animation to make the caret blink faster */
+          @keyframes fast-blink {
+            0% {
+              opacity: 1;
+            }
+            50% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+      
+          /* Apply the custom caret color and blink animation */
+          input[type="text"] {
+            caret-color: #00BFFF; /* Light blue color */
+            animation: fast-blink 0.5s step-end infinite; /* Fast blink effect */
+          }
+        </style>
+      </head>
+      <div class="bg-gray-100 p-4">
+        //  // Add hover effect for each button
+        //  span.addEventListener('mouseover', () => {
+        //    span.style.backgroundColor = '#5a67d8'; // Darker blue on button hover
+        //  });
+    
+        //  span.addEventListener('mouseout', () => {
+        //    span.style.backgroundColor = '#3490dc'; // Revert to original color
+        //  });
+        <ul id="todo-list">
+          <li onclick="toggleLineThrough(this)">Buy groceries</li>
+          <li onclick="toggleLineThrough(this)">Clean the house</li>
+          <li onclick="toggleLineThrough(this)">Finish project</li>
+        </ul>
+        
+     
+        
+       
+
+      </div>
+      <script>
+ 
+      </script>
+
+      
+      </body>
+</html>
+
+
+input[type="search"] {
+  color: white; /* Set the text color to white */
+}
+.hover-box:hover {
+  background: linear-gradient(to right, rgba(37, 39, 60, 1), rgba(60, 63, 84, 1)); /* Lighter gradient */
+  color: white; /* Text color for contrast */
+ transition: background-color 0.3s ease; /* Smooth transition for background color */
+
+}
+
+#colored-div1.light-mode{
+  background-color: white;
+  color: #000000; /* Hex color code */
+  overflow: hidden;
+}
+
+#colored-div2.light-mode {
+  background-color: white;
+}
+#colored-div3.light-mode {
+  background-color: white;
+}
+
+#colored-div4.light-mode {
+  background-color: white;
+}
+
+#colored-div5.light-mode {
+  background-color: white;
+}
+#colored-div6.light-mode {
+  background-color: white;
+}
+#colored-div7.light-mode {
+  background-color: white;
+}
+#colored-div8.light-mode {
+  background-color: white;
+}
+
+#colored-div1.dark-mode{
+  background-color: bg-custom-gray;
+  color: white;
+  overflow: hidden;
+}
+
+#colored-div2.dark-mode {
+  background-color: bg-custom-gray; /* Adjust as needed */
+}
+#colored-div3.dark-mode {
+  background-color: bg-custom-gray; /* Adjust as needed */
+}
+#colored-div4.dark-mode {
+  background-color: bg-custom-gray; /* Adjust as needed */
+}
+#colored-div5.dark-mode {
+  background-color: bg-custom-gray; /* Adjust as needed */
+}
+#colored-div6.dark-mode {
+  background-color: bg-custom-gray; /* Adjust as needed */
+}#colored-div7.dark-mode {
+  background-color: bg-custom-gray; /* Adjust as needed */
+}#colored-div8.dark-mode {
+  background-color: bg-custom-gray; /* Adjust as needed */
+}
+/* #div-btn1.dark-mode{
+  color: black;
+}
+#div-btn2.dark-mode{
+  color: black;
+} */
